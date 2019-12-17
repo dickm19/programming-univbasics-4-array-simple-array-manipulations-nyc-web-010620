@@ -98,6 +98,8 @@ ice_cream_flavors_simplified = using_uniq(ice_cream_flavors)
 
 
 #using flatten
+streaming_services = ["Netflix","Hulu","Youtube"]
+board_games = ["Monopoly",""]
 
 
 
