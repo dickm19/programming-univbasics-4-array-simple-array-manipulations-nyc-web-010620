@@ -74,10 +74,11 @@ end
 colors_in_rainbow = using_concat(primary_colors,secondary_colors)
 
 #using insert
-first_five_presidents = ["1. George Washington","2. John Adams","4. James Madison", "James Monroe"]
+first_five_presidents = ["1. George Washington","2. John Adams","4. James Madison", "5. James Monroe"]
+third_president = "3. Thomas Jefferson"
 
 puts "Whoops! Missed one"
 
 def using_insert(a,b)
-  
+  a.insert(b)
 
