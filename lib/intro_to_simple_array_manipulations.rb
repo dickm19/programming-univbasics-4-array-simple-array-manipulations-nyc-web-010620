@@ -124,6 +124,8 @@ movies_to_choose_from = using_delete(movies_i_like,movie_my_friends_dont_like)
 
 
 #using delete at
-delicious_foods = ["Spaghetti", "Fried Rice", "bologna", ]
+delicious_foods = ["Spaghetti", "Fried Rice", "bologna", "Bacon"]
 
+def using_delete_at(a)
+  a.delete_at
 
