@@ -87,3 +87,7 @@ end
 first_five_presidents = using_insert(first_five_presidents_n, fifth_president)
 
 
+#using authenticate_or_request_with_http_digest
+
+
+
