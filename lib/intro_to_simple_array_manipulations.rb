@@ -74,8 +74,8 @@ end
 colors_in_rainbow = using_concat(primary_colors,secondary_colors)
 
 #using insert
-first_five_presidents_n = ["1. George Washington","2. John Adams","4. James Madison", "5. James Monroe"]
-third_president = "3. Thomas Jefferson"
+first_five_presidents_n = ["1. George Washington","2. John Adams","3. Thomas Jefferson", "5. James Monroe"]
+third_president = "4. James Madison"
 
 puts "Whoops! Missed one"
 
