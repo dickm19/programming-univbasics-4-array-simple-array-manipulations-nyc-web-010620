@@ -90,7 +90,11 @@ first_five_presidents = using_insert(first_five_presidents_n, fifth_president)
 #using uniq
 ice_cream_flavors = ["Vanilla","Strawberry","Chocolate","Rocky Road","Strawberry"]
 
+def using_uniq(a)
+  a.uniq
+end
 
+ice_cream_flavors_simplified = using_uniq(ice_cream_flavors)
 
 
 
