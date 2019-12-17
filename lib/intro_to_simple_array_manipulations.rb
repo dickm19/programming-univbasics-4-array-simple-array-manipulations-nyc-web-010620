@@ -117,7 +117,10 @@ movies_i_like = ["Ice Age", "Little Women", "Once Upon a Time In Hollywood", "Th
 movie_my_friends_dont_like = "The Importance of Being Earnest"
 
 def using_delete(a,b)
-  
+  a.delete(b)
+end
+
+movies_to_choose_from = using_delete(movies_i_like,movie_my_friends_dont_like)
 
 
 
