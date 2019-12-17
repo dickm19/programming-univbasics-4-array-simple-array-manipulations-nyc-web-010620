@@ -80,5 +80,9 @@ third_president = "3. Thomas Jefferson"
 puts "Whoops! Missed one"
 
 def using_insert(a,b)
-  a.insert(b)
+  a.insert(2,b)
+end
+
+first_five_presidents = using_insert(first_five_presidents, third_president)
+
 
