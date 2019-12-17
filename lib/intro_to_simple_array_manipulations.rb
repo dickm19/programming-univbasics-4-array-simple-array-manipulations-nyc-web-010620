@@ -128,9 +128,6 @@ delicious_foods = ["Spaghetti", "Fried Rice", "bologna", "Bacon"]
 
 puts "Nope. Bologna is disgusting."
 
-def using_delete_at(a)
-  a.delete_at(2)
-end
 
-real_delicious_foods = using_delete_at(delicious_foods)
+real_delicious_foods = delicious_foods.delete_at(2)
 
